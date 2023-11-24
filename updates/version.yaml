@@ -1,0 +1,18 @@
+v1.0.1: Initialize plugin.
+v1.0.2:
+    - Create database tables.
+    - create_films_table.php
+    - create_genres_table.php
+    - create_film_crew_table.php
+    - create_film_crew_roles_table.php
+    - create_film_crew_to_films_table.php
+    - create_genres_to_films_table.php
+v1.0.3:
+    - Seed database tables.
+    - seed_genres_table.php
+    - seed_film_crew_roles_table.php
+    - seed_film_crew_table.php
+    - seed_films_table.php
+v1.0.4:
+    - Add user's favourite films 
+    - create_users_favourite_films_table.php

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Genre
+
+# Model Form Field configuration
+form: $/sofyaper/filmplatform/models/genre/fields.yaml
+
+# Model Class name
+modelClass: SofyaPer\FilmPlatform\Models\Genre
+
+# Default redirect location
+defaultRedirect: sofyaper/filmplatform/genres
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: sofyaper/filmplatform/genres/update/:id
+    redirectClose: sofyaper/filmplatform/genres
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: sofyaper/filmplatform/genres
+    redirectClose: sofyaper/filmplatform/genres
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

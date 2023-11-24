@@ -1,0 +1,21 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    first_name:
+        label: Имя
+        type: text
+        searchable: true
+    middle_name:
+        label: Отчество
+        type: text
+        searchable: true
+    last_name:
+        label: Фамиилия
+        type: text
+        searchable: true
+    slug:
+        label: Код
+        type: text
+        searchable: true

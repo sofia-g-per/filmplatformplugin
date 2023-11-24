@@ -1,0 +1,33 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Название
+        type: text
+    description:
+        label: Описание
+        type: textarea
+    release_date:
+        label: Дата выхода
+        type: datepicker
+        format: D M Y
+    slug:
+        label: Код
+        type: text
+    cover_img:
+        label: Обложка
+        type: fileupload
+    photos:
+        label: Фотографии
+        type: fileupload    
+        multiple: true
+    genres: 
+        label: Жанры
+        type: relation
+        nameFrom: name
+        source: \SofyaPer\FilmPlatform\Models\Genre
+        context: update
+
+

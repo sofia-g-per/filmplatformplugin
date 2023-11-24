@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    film:
+        label: Фильм
+        type: relation
+        source: \SofyaPer\FilmPlatform\Models\Film
+        nameFrom: name
+    film_crew:
+        label: ФИО
+        type: relation
+        select: concat(last_name, ' ', first_name)
+        source: \SofyaPer\FilmPlatform\Models\FilmCrew
+    film_crew_role:
+        label: Профессия
+        type: relation
+        nameFrom: name
+        source: \SofyaPer\FilmPlatform\Models\FilmCrewRole

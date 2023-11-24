@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Название
+        type: text
+    code:
+        label: Код
+        type: text

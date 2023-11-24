@@ -1,0 +1,20 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+columns:
+    film:
+        label: Фильм
+        relation: film
+        select: name
+        searchable: true
+    film_crew:
+        label: ФИО
+        relation: film_crew
+        select: last_name
+        searchable: true
+    film_crew_role:
+        label: Должность
+        relation: film_crew_role
+        select: name
+        searchable: true
+

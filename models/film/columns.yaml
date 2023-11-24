@@ -1,0 +1,32 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Название
+        type: text
+        searchable: true
+    description:
+        label: Описание
+        type: summary
+        limitChars: 50
+        endChars: "..."
+    release_date:
+        label: Дата выхода
+        type: date
+        format: D M Y
+        searchable: true
+    cover_img:
+        label: Обложка
+        type: image
+        sortable: false 
+    slug:
+        label: Код
+        type: text
+        searchable: true
+    created_at:
+        label: Дата добавления на платформу
+        type: date
+        format: D M Y
+        searchable: true

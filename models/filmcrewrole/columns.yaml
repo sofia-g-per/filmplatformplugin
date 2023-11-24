@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    name:
+        label: Название
+        type: text
+        searchable: true
+    code:
+        label: Код
+        type: text
+        searchable: true
+

@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Film Crew To Film
+
+# Model Form Field configuration
+form: $/sofyaper/filmplatform/models/filmcrewtofilm/fields.yaml
+
+# Model Class name
+modelClass: SofyaPer\FilmPlatform\Models\FilmCrewToFilm
+
+# Default redirect location
+defaultRedirect: sofyaper/filmplatform/filmcrewtofilms
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: sofyaper/filmplatform/filmcrewtofilms/update/:id
+    redirectClose: sofyaper/filmplatform/filmcrewtofilms
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: sofyaper/filmplatform/filmcrewtofilms
+    redirectClose: sofyaper/filmplatform/filmcrewtofilms
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

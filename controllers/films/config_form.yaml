@@ -1,0 +1,30 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Film
+
+# Model Form Field configuration
+form: $/sofyaper/filmplatform/models/film/fields.yaml
+
+# Model Class name
+modelClass: SofyaPer\FilmPlatform\Models\Film
+
+# Default redirect location
+defaultRedirect: sofyaper/filmplatform/films
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: sofyaper/filmplatform/films/update/:id
+    
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: sofyaper/filmplatform/films
+    redirectClose: sofyaper/filmplatform/films
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title
